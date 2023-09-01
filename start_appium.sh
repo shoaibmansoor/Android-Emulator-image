@@ -15,7 +15,7 @@ function start_appium () {
     else
     printf "${G}==>  ${BL}Instance will run on ${YE}${APPIUM_PORT} ${G}<==${NC}""\n"
     sleep 0.5
-    appium -p $APPIUM_PORT &
+    appium -p $APPIUM_PORT
     fi
 };
 
