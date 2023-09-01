@@ -97,6 +97,8 @@ RUN chmod a+x start_vnc.sh && \
     chmod a+x start_appium.sh && \
     chmod a+x start_emu_headless.sh
 
+EXPOSE 4723
+
 #=======================
 # framework entry point
 #=======================
